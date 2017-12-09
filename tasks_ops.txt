@@ -1,0 +1,78 @@
+This is the tasks example domain.
+
+(operator
+ t1
+  (params
+   (<a> ObjA) (<b> ObjB)
+  )
+  (preconds
+   (there-is <a>)
+   (there-is-not <b>)
+  )
+  (effects 
+   (there-is <b>)
+  )
+)
+
+(operator
+ t2
+  (params
+   (<a> ObjA) (<c> ObjC) (<d> ObjD)
+  )
+  (preconds
+   (there-is <a>)
+   (there-is-not <c>)
+   (there-is-not <d>)
+  )
+  (effects 
+   (there-is <c>)
+   (there-is <d>)
+  )
+)
+
+(operator
+ t3
+  (params
+   (<b> ObjB) (<c> ObjC) (<d> ObjD) (<e> ObjE)
+  )
+  (preconds
+   (there-is <b>)
+   (there-is <c>)
+   (there-is <d>)
+   (there-is-not <e>)
+  )
+  (effects 
+   (there-is <e>)
+  )
+)
+
+(operator
+ t4
+  (params
+   (<a> ObjA) (<e> ObjE) (<f> ObjF)
+  )
+  (preconds
+   (there-is <a>)
+   (there-is <e>)
+   (there-is-not <f>)
+  )
+  (effects 
+   (there-is <f>)
+  )
+)
+
+(operator
+ t5
+  (params
+   (<a> ObjA) (<c> ObjC) (<d> ObjD) (<e> ObjE)
+  )
+  (preconds
+   (there-is <a>)
+   (there-is <c>)
+   (there-is <d>)
+   (there-is-not <e>)
+  )
+  (effects 
+   (there-is <e>)
+  )
+)
