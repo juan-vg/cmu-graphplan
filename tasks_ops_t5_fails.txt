@@ -10,7 +10,7 @@ This is the tasks example domain.
    (there-is-not <b>)
   )
   (effects 
-   (there-is <b>)
+   (del there-is-not <b>) (there-is <b>)
   )
 )
 
@@ -25,8 +25,8 @@ This is the tasks example domain.
    (there-is-not <d>)
   )
   (effects 
-   (there-is <c>)
-   (there-is <d>)
+   (del there-is-not <c>) (there-is <c>)
+   (del there-is-not <d>) (there-is <d>)
   )
 )
 
@@ -42,7 +42,7 @@ This is the tasks example domain.
    (there-is-not <e>)
   )
   (effects 
-   (there-is <e>)
+   (del there-is-not <e>) (there-is <e>)
   )
 )
 
@@ -57,6 +57,51 @@ This is the tasks example domain.
    (there-is-not <f>)
   )
   (effects 
+   (del there-is-not <f>) (there-is <f>)
+  )
+)
+
+(operator
+ t6
+  (params
+   (<b> ObjB) (<d> ObjD) (<g> ObjG)
+  )
+  (preconds
+   (there-is <b>)
+   (there-is <d>)
+   (there-is-not <g>)
+  )
+  (effects 
+   (del there-is-not <g>) (there-is <g>)
+  )
+)
+
+(operator
+ t7
+  (params
+   (<e> ObjE) (<g> ObjG) (<h> ObjH)
+  )
+  (preconds
+   (there-is <e>)
+   (there-is <g>)
+   (there-is-not <h>)
+  )
+  (effects 
+   (del there-is-not <h>) (there-is <h>)
+  )
+)
+
+(operator
+ t8
+  (params
+   (<f> ObjF) (<h> ObjH) (<i> ObjI)
+  )
+  (preconds
    (there-is <f>)
+   (there-is <h>)
+   (there-is-not <i>)
+  )
+  (effects 
+   (del there-is-not <i>) (there-is <i>)
   )
 )
