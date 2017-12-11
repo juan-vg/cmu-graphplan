@@ -20,7 +20,7 @@ Check out the [wiki](https://github.com/juan-vg/cmu-graphplan/wiki)
 
 Just another proof of concept whose purpose is to test the algorithm. Furthermore, in order to check the plan's parallelism possibilities, the example has been designed to force this result. Have a look at the following diagram!
 
-![Tasks Diagram](https://github.com/juan-vg/cmu-graphplan/tasks-example-diagram.png)
+![Tasks Diagram](https://github.com/juan-vg/cmu-graphplan/blob/master/tasks-example-diagram.png)
 
 # Credits
 
