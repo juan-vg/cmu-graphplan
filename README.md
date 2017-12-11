@@ -1,7 +1,20 @@
 # Graphplan
 Carnegie Mellon University Graphplan Impl
 
-## Credits
+## Compile (on Linux)
+
+    ~/cmu-graphplan$ cd source
+    ~/cmu-graphplan/source$ make
+
+## Exec example (on Linux)
+
+    ~/cmu-graphplan$ source/graphplan -o tasks_ops.txt -f tasks_facts.txt -d
+    
+## Additional info
+
+Check out the [wiki](https://github.com/juan-vg/cmu-graphplan/wiki)
+
+# Credits
 
 User avrim from CMU
 
