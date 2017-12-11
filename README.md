@@ -1,18 +1,26 @@
 # Graphplan
 Carnegie Mellon University Graphplan Impl
 
-## Compile (on Linux)
+## First Steps
+
+### Compile (on Linux)
 
     ~/cmu-graphplan$ cd source
     ~/cmu-graphplan/source$ make
 
-## Exec example (on Linux)
+### Exec example (on Linux)
 
     ~/cmu-graphplan$ source/graphplan -o tasks_ops.txt -f tasks_facts.txt -d
     
-## Additional info
+### Additional info
 
 Check out the [wiki](https://github.com/juan-vg/cmu-graphplan/wiki)
+
+## Tasks Example Domain & Problem
+
+Just another proof of concept whose purpose is to test the algorithm. Furthermore, in order to check the plan's parallelism possibilities, the example has been designed to force this result. Have a look at the following diagram!
+
+![Tasks Diagram](https://github.com/juan-vg/cmu-graphplan/tasks-example-diagram.png)
 
 # Credits
 
