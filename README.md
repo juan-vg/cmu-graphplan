@@ -22,6 +22,8 @@ Just my own proof of concept whose purpose is to test the algorithm. Furthermore
 
 ![Tasks Diagram](https://github.com/juan-vg/cmu-graphplan/blob/master/tasks-example-diagram.png)
 
+In addition, having the goal of getting alternative plans in mind, you will find an [ops file](tasks_ops_t5_fails.txt) that simulates a task failure. 
+
 # Graphplan Impl. Credits
 
 User avrim from CMU
